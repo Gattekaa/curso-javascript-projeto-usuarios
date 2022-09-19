@@ -22,35 +22,35 @@ class User {
     }
 
     get gender() {
-        return this._gender
+        return this._gender;
     }
 
     get birth(){
-        return this._birthi
+        return this._birth;
     }
 
     get country() {
-        return this._country
+        return this._country;
     }
 
     get email() {
-        return this._email
+        return this._email;
     }
 
     get password(){
-        return this._password
+        return this._password;
     }
 
     get photo() {
-        return this._photo
+        return this._photo;
     }
 
     get admin() {
-        return this._admin
+        return this._admin;
     }
 
     set photo(value) {
-        this._photo = value
+        this._photo = value;
     }
 
 }
